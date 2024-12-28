@@ -10,6 +10,7 @@ RUN rm -rf ./*
 # Copy your HTML file and associated image into the container
 COPY index.html .
 COPY index.jpg .
+copy index2.jpg .
 
 # Expose the default Nginx port
 EXPOSE 80
